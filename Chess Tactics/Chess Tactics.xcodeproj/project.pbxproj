@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D0839DD275EC80900F89AE2 /* CreatePuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0839DC275EC80800F89AE2 /* CreatePuzzleView.swift */; };
+		9D0839DF275ECA5A00F89AE2 /* ChessTacticsManager+CreatePuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0839DE275ECA5A00F89AE2 /* ChessTacticsManager+CreatePuzzle.swift */; };
+		9D095B2C2742F7570019FC53 /* PromotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D095B2B2742F7570019FC53 /* PromotionView.swift */; };
+		9D095B2E2742FC4E0019FC53 /* PromotionViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D095B2D2742FC4E0019FC53 /* PromotionViewButton.swift */; };
+		9D3D7BE127459ABD00C24C25 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D7BE027459ABD00C24C25 /* StorageManager.swift */; };
+		9D3D7BE327459AEF00C24C25 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D7BE227459AEF00C24C25 /* Puzzle.swift */; };
+		9D3D7BE42745A50E00C24C25 /* intermediate.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D3D7BDF27459A0E00C24C25 /* intermediate.json */; };
+		9D3D7BE62745A6CC00C24C25 /* AttemptPuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D7BE52745A6CC00C24C25 /* AttemptPuzzleView.swift */; };
+		9D3D7BE82745AAE700C24C25 /* GameAssetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D7BE72745AAE700C24C25 /* GameAssetsView.swift */; };
+		9D4C7B2C27418C2F00D64E28 /* ChessTacticsManager + ChessSquareLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C7B2B27418C2F00D64E28 /* ChessTacticsManager + ChessSquareLogic.swift */; };
+		9D7247C32746DEB600C36B4B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7247C22746DEB600C36B4B /* Game.swift */; };
+		9D7247C52746F29E00C36B4B /* ChessTacticsManager+Puzzles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7247C42746F29E00C36B4B /* ChessTacticsManager+Puzzles.swift */; };
+		9D7247C72746F84500C36B4B /* AttemptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7247C62746F84500C36B4B /* AttemptsView.swift */; };
+		9D7247C92747063200C36B4B /* Int+Chess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7247C82747063100C36B4B /* Int+Chess.swift */; };
+		9D888500273B050200F8FE29 /* ChessSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8884FF273B050200F8FE29 /* ChessSquare.swift */; };
+		9D888502273B05CA00F8FE29 /* String+Chess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D888501273B05CA00F8FE29 /* String+Chess.swift */; };
+		9D888504273B078100F8FE29 /* ChessSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D888503273B078100F8FE29 /* ChessSquareView.swift */; };
+		9D888507273B079C00F8FE29 /* ChessTacticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D888506273B079C00F8FE29 /* ChessTacticsManager.swift */; };
+		9D888509273B09CD00F8FE29 /* ChessSquareRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D888508273B09CD00F8FE29 /* ChessSquareRow.swift */; };
+		9D88850B273B0E8300F8FE29 /* MoveHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88850A273B0E8300F8FE29 /* MoveHistoryView.swift */; };
+		9D88850D273B108D00F8FE29 /* ChessPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88850C273B108D00F8FE29 /* ChessPiece.swift */; };
+		9D88850F273B13AB00F8FE29 /* ChessConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88850E273B13AB00F8FE29 /* ChessConstants.swift */; };
+		9D8FED152731C52100FD6DCD /* Chess_TacticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8FED142731C52100FD6DCD /* Chess_TacticsApp.swift */; };
+		9D8FED172731C52100FD6DCD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8FED162731C52100FD6DCD /* HomeView.swift */; };
+		9D8FED192731C52700FD6DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D8FED182731C52700FD6DCD /* Assets.xcassets */; };
+		9D8FED1C2731C52700FD6DCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D8FED1B2731C52700FD6DCD /* Preview Assets.xcassets */; };
+		9D8FED262731C52800FD6DCD /* Chess_TacticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8FED252731C52800FD6DCD /* Chess_TacticsTests.swift */; };
+		9D8FED302731C52800FD6DCD /* Chess_TacticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8FED2F2731C52800FD6DCD /* Chess_TacticsUITests.swift */; };
+		9D8FED322731C52800FD6DCD /* Chess_TacticsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8FED312731C52800FD6DCD /* Chess_TacticsUITestsLaunchTests.swift */; };
+		9D8FED422731CD1B00FD6DCD /* PuzzlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8FED412731CD1B00FD6DCD /* PuzzlesView.swift */; };
+		9D8FED442731D3F700FD6DCD /* ButtonContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8FED432731D3F700FD6DCD /* ButtonContent.swift */; };
+		9D8FED462731D4AF00FD6DCD /* ViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8FED452731D4AF00FD6DCD /* ViewConstants.swift */; };
+		9D8FED482731D86000FD6DCD /* HomePageButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8FED472731D86000FD6DCD /* HomePageButtonView.swift */; };
+		9D8FED4A2731DBBC00FD6DCD /* PlayGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8FED492731DBBC00FD6DCD /* PlayGameView.swift */; };
+		9D8FED4C2731DBC600FD6DCD /* ChessBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8FED4B2731DBC600FD6DCD /* ChessBoardView.swift */; };
+		9D92DECE273C2C900031C920 /* ChessTacticsManager+ChessMoveLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D92DECD273C2C900031C920 /* ChessTacticsManager+ChessMoveLogic.swift */; };
+		9D990F85275EE5C500F41C60 /* UserCreatedPuzzlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D990F84275EE5C500F41C60 /* UserCreatedPuzzlesView.swift */; };
+		9DB96A3C276571A700D09E85 /* advanced.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DB96A3A276571A700D09E85 /* advanced.json */; };
+		9DB96A3D276571A700D09E85 /* beginner.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DB96A3B276571A700D09E85 /* beginner.json */; };
+		9DCF7D6527444FA400638CEC /* ChessTacticsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF7D6427444FA400638CEC /* ChessTacticsModel.swift */; };
+		9DCF7D67274451ED00638CEC /* HalfMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF7D66274451ED00638CEC /* HalfMove.swift */; };
+		9DCF7D6927445A0E00638CEC /* FullMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF7D6827445A0E00638CEC /* FullMove.swift */; };
+		9DE14F03275536E9004E4625 /* ChessTacticsManager+MoveViewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE14F02275536E8004E4625 /* ChessTacticsManager+MoveViewing.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D8FED222731C52800FD6DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D8FED092731C52100FD6DCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D8FED102731C52100FD6DCD;
+			remoteInfo = "Chess Tactics";
+		};
+		9D8FED2C2731C52800FD6DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D8FED092731C52100FD6DCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D8FED102731C52100FD6DCD;
+			remoteInfo = "Chess Tactics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D0839DC275EC80800F89AE2 /* CreatePuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePuzzleView.swift; sourceTree = "<group>"; };
+		9D0839DE275ECA5A00F89AE2 /* ChessTacticsManager+CreatePuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChessTacticsManager+CreatePuzzle.swift"; sourceTree = "<group>"; };
+		9D095B2B2742F7570019FC53 /* PromotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionView.swift; sourceTree = "<group>"; };
+		9D095B2D2742FC4E0019FC53 /* PromotionViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionViewButton.swift; sourceTree = "<group>"; };
+		9D3D7BDF27459A0E00C24C25 /* intermediate.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = intermediate.json; path = "Chess Tactics/Model/intermediate.json"; sourceTree = SOURCE_ROOT; };
+		9D3D7BE027459ABD00C24C25 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		9D3D7BE227459AEF00C24C25 /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		9D3D7BE52745A6CC00C24C25 /* AttemptPuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttemptPuzzleView.swift; sourceTree = "<group>"; };
+		9D3D7BE72745AAE700C24C25 /* GameAssetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAssetsView.swift; sourceTree = "<group>"; };
+		9D4C7B2B27418C2F00D64E28 /* ChessTacticsManager + ChessSquareLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChessTacticsManager + ChessSquareLogic.swift"; sourceTree = "<group>"; };
+		9D7247C22746DEB600C36B4B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		9D7247C42746F29E00C36B4B /* ChessTacticsManager+Puzzles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChessTacticsManager+Puzzles.swift"; sourceTree = "<group>"; };
+		9D7247C62746F84500C36B4B /* AttemptsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttemptsView.swift; sourceTree = "<group>"; };
+		9D7247C82747063100C36B4B /* Int+Chess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Chess.swift"; sourceTree = "<group>"; };
+		9D8884FF273B050200F8FE29 /* ChessSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessSquare.swift; sourceTree = "<group>"; };
+		9D888501273B05CA00F8FE29 /* String+Chess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Chess.swift"; sourceTree = "<group>"; };
+		9D888503273B078100F8FE29 /* ChessSquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessSquareView.swift; sourceTree = "<group>"; };
+		9D888506273B079C00F8FE29 /* ChessTacticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessTacticsManager.swift; sourceTree = "<group>"; };
+		9D888508273B09CD00F8FE29 /* ChessSquareRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessSquareRow.swift; sourceTree = "<group>"; };
+		9D88850A273B0E8300F8FE29 /* MoveHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveHistoryView.swift; sourceTree = "<group>"; };
+		9D88850C273B108D00F8FE29 /* ChessPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessPiece.swift; sourceTree = "<group>"; };
+		9D88850E273B13AB00F8FE29 /* ChessConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessConstants.swift; sourceTree = "<group>"; };
+		9D8FED112731C52100FD6DCD /* Chess Tactics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chess Tactics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8FED142731C52100FD6DCD /* Chess_TacticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess_TacticsApp.swift; sourceTree = "<group>"; };
+		9D8FED162731C52100FD6DCD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9D8FED182731C52700FD6DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D8FED1B2731C52700FD6DCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D8FED212731C52800FD6DCD /* Chess TacticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chess TacticsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8FED252731C52800FD6DCD /* Chess_TacticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess_TacticsTests.swift; sourceTree = "<group>"; };
+		9D8FED2B2731C52800FD6DCD /* Chess TacticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chess TacticsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8FED2F2731C52800FD6DCD /* Chess_TacticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess_TacticsUITests.swift; sourceTree = "<group>"; };
+		9D8FED312731C52800FD6DCD /* Chess_TacticsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess_TacticsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D8FED412731CD1B00FD6DCD /* PuzzlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzlesView.swift; sourceTree = "<group>"; };
+		9D8FED432731D3F700FD6DCD /* ButtonContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContent.swift; sourceTree = "<group>"; };
+		9D8FED452731D4AF00FD6DCD /* ViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConstants.swift; sourceTree = "<group>"; };
+		9D8FED472731D86000FD6DCD /* HomePageButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageButtonView.swift; sourceTree = "<group>"; };
+		9D8FED492731DBBC00FD6DCD /* PlayGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameView.swift; sourceTree = "<group>"; };
+		9D8FED4B2731DBC600FD6DCD /* ChessBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoardView.swift; sourceTree = "<group>"; };
+		9D92DECD273C2C900031C920 /* ChessTacticsManager+ChessMoveLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChessTacticsManager+ChessMoveLogic.swift"; sourceTree = "<group>"; };
+		9D990F84275EE5C500F41C60 /* UserCreatedPuzzlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreatedPuzzlesView.swift; sourceTree = "<group>"; };
+		9DB96A3A276571A700D09E85 /* advanced.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = advanced.json; path = "Chess Tactics/Model/advanced.json"; sourceTree = SOURCE_ROOT; };
+		9DB96A3B276571A700D09E85 /* beginner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = beginner.json; path = "Chess Tactics/Model/beginner.json"; sourceTree = SOURCE_ROOT; };
+		9DCF7D6427444FA400638CEC /* ChessTacticsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessTacticsModel.swift; sourceTree = "<group>"; };
+		9DCF7D66274451ED00638CEC /* HalfMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfMove.swift; sourceTree = "<group>"; };
+		9DCF7D6827445A0E00638CEC /* FullMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullMove.swift; sourceTree = "<group>"; };
+		9DE14F02275536E8004E4625 /* ChessTacticsManager+MoveViewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChessTacticsManager+MoveViewing.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D8FED0E2731C52100FD6DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8FED1E2731C52800FD6DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8FED282731C52800FD6DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D8884FE273B04E500F8FE29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DB96A3A276571A700D09E85 /* advanced.json */,
+				9DB96A3B276571A700D09E85 /* beginner.json */,
+				9D8884FF273B050200F8FE29 /* ChessSquare.swift */,
+				9D888501273B05CA00F8FE29 /* String+Chess.swift */,
+				9D88850C273B108D00F8FE29 /* ChessPiece.swift */,
+				9D88850E273B13AB00F8FE29 /* ChessConstants.swift */,
+				9DCF7D6427444FA400638CEC /* ChessTacticsModel.swift */,
+				9DCF7D66274451ED00638CEC /* HalfMove.swift */,
+				9DCF7D6827445A0E00638CEC /* FullMove.swift */,
+				9D3D7BDF27459A0E00C24C25 /* intermediate.json */,
+				9D3D7BE027459ABD00C24C25 /* StorageManager.swift */,
+				9D3D7BE227459AEF00C24C25 /* Puzzle.swift */,
+				9D7247C22746DEB600C36B4B /* Game.swift */,
+				9D7247C82747063100C36B4B /* Int+Chess.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D888505273B078D00F8FE29 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9D888506273B079C00F8FE29 /* ChessTacticsManager.swift */,
+				9D92DECD273C2C900031C920 /* ChessTacticsManager+ChessMoveLogic.swift */,
+				9D4C7B2B27418C2F00D64E28 /* ChessTacticsManager + ChessSquareLogic.swift */,
+				9D7247C42746F29E00C36B4B /* ChessTacticsManager+Puzzles.swift */,
+				9DE14F02275536E8004E4625 /* ChessTacticsManager+MoveViewing.swift */,
+				9D0839DE275ECA5A00F89AE2 /* ChessTacticsManager+CreatePuzzle.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9D8FED082731C52100FD6DCD = {
+			isa = PBXGroup;
+			children = (
+				9D8FED132731C52100FD6DCD /* Chess Tactics */,
+				9D8FED242731C52800FD6DCD /* Chess TacticsTests */,
+				9D8FED2E2731C52800FD6DCD /* Chess TacticsUITests */,
+				9D8FED122731C52100FD6DCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D8FED122731C52100FD6DCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D8FED112731C52100FD6DCD /* Chess Tactics.app */,
+				9D8FED212731C52800FD6DCD /* Chess TacticsTests.xctest */,
+				9D8FED2B2731C52800FD6DCD /* Chess TacticsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D8FED132731C52100FD6DCD /* Chess Tactics */ = {
+			isa = PBXGroup;
+			children = (
+				9D888505273B078D00F8FE29 /* ViewModel */,
+				9D8884FE273B04E500F8FE29 /* Model */,
+				9D8FED3E2731C5D500FD6DCD /* Views */,
+				9D8FED182731C52700FD6DCD /* Assets.xcassets */,
+				9D8FED142731C52100FD6DCD /* Chess_TacticsApp.swift */,
+				9D8FED1A2731C52700FD6DCD /* Preview Content */,
+			);
+			path = "Chess Tactics";
+			sourceTree = "<group>";
+		};
+		9D8FED1A2731C52700FD6DCD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9D8FED1B2731C52700FD6DCD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9D8FED242731C52800FD6DCD /* Chess TacticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D8FED252731C52800FD6DCD /* Chess_TacticsTests.swift */,
+			);
+			path = "Chess TacticsTests";
+			sourceTree = "<group>";
+		};
+		9D8FED2E2731C52800FD6DCD /* Chess TacticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D8FED2F2731C52800FD6DCD /* Chess_TacticsUITests.swift */,
+				9D8FED312731C52800FD6DCD /* Chess_TacticsUITestsLaunchTests.swift */,
+			);
+			path = "Chess TacticsUITests";
+			sourceTree = "<group>";
+		};
+		9D8FED3E2731C5D500FD6DCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D8FED472731D86000FD6DCD /* HomePageButtonView.swift */,
+				9D8FED162731C52100FD6DCD /* HomeView.swift */,
+				9D8FED412731CD1B00FD6DCD /* PuzzlesView.swift */,
+				9D8FED432731D3F700FD6DCD /* ButtonContent.swift */,
+				9D8FED452731D4AF00FD6DCD /* ViewConstants.swift */,
+				9D8FED492731DBBC00FD6DCD /* PlayGameView.swift */,
+				9D8FED4B2731DBC600FD6DCD /* ChessBoardView.swift */,
+				9D888503273B078100F8FE29 /* ChessSquareView.swift */,
+				9D888508273B09CD00F8FE29 /* ChessSquareRow.swift */,
+				9D88850A273B0E8300F8FE29 /* MoveHistoryView.swift */,
+				9D095B2B2742F7570019FC53 /* PromotionView.swift */,
+				9D095B2D2742FC4E0019FC53 /* PromotionViewButton.swift */,
+				9D3D7BE52745A6CC00C24C25 /* AttemptPuzzleView.swift */,
+				9D3D7BE72745AAE700C24C25 /* GameAssetsView.swift */,
+				9D7247C62746F84500C36B4B /* AttemptsView.swift */,
+				9D0839DC275EC80800F89AE2 /* CreatePuzzleView.swift */,
+				9D990F84275EE5C500F41C60 /* UserCreatedPuzzlesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D8FED102731C52100FD6DCD /* Chess Tactics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D8FED352731C52800FD6DCD /* Build configuration list for PBXNativeTarget "Chess Tactics" */;
+			buildPhases = (
+				9D8FED0D2731C52100FD6DCD /* Sources */,
+				9D8FED0E2731C52100FD6DCD /* Frameworks */,
+				9D8FED0F2731C52100FD6DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chess Tactics";
+			productName = "Chess Tactics";
+			productReference = 9D8FED112731C52100FD6DCD /* Chess Tactics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D8FED202731C52800FD6DCD /* Chess TacticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D8FED382731C52800FD6DCD /* Build configuration list for PBXNativeTarget "Chess TacticsTests" */;
+			buildPhases = (
+				9D8FED1D2731C52800FD6DCD /* Sources */,
+				9D8FED1E2731C52800FD6DCD /* Frameworks */,
+				9D8FED1F2731C52800FD6DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D8FED232731C52800FD6DCD /* PBXTargetDependency */,
+			);
+			name = "Chess TacticsTests";
+			productName = "Chess TacticsTests";
+			productReference = 9D8FED212731C52800FD6DCD /* Chess TacticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D8FED2A2731C52800FD6DCD /* Chess TacticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D8FED3B2731C52800FD6DCD /* Build configuration list for PBXNativeTarget "Chess TacticsUITests" */;
+			buildPhases = (
+				9D8FED272731C52800FD6DCD /* Sources */,
+				9D8FED282731C52800FD6DCD /* Frameworks */,
+				9D8FED292731C52800FD6DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D8FED2D2731C52800FD6DCD /* PBXTargetDependency */,
+			);
+			name = "Chess TacticsUITests";
+			productName = "Chess TacticsUITests";
+			productReference = 9D8FED2B2731C52800FD6DCD /* Chess TacticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D8FED092731C52100FD6DCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					9D8FED102731C52100FD6DCD = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					9D8FED202731C52800FD6DCD = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9D8FED102731C52100FD6DCD;
+					};
+					9D8FED2A2731C52800FD6DCD = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9D8FED102731C52100FD6DCD;
+					};
+				};
+			};
+			buildConfigurationList = 9D8FED0C2731C52100FD6DCD /* Build configuration list for PBXProject "Chess Tactics" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D8FED082731C52100FD6DCD;
+			productRefGroup = 9D8FED122731C52100FD6DCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D8FED102731C52100FD6DCD /* Chess Tactics */,
+				9D8FED202731C52800FD6DCD /* Chess TacticsTests */,
+				9D8FED2A2731C52800FD6DCD /* Chess TacticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D8FED0F2731C52100FD6DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8FED1C2731C52700FD6DCD /* Preview Assets.xcassets in Resources */,
+				9D3D7BE42745A50E00C24C25 /* intermediate.json in Resources */,
+				9D8FED192731C52700FD6DCD /* Assets.xcassets in Resources */,
+				9DB96A3D276571A700D09E85 /* beginner.json in Resources */,
+				9DB96A3C276571A700D09E85 /* advanced.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8FED1F2731C52800FD6DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8FED292731C52800FD6DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D8FED0D2731C52100FD6DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7247C92747063200C36B4B /* Int+Chess.swift in Sources */,
+				9D095B2C2742F7570019FC53 /* PromotionView.swift in Sources */,
+				9D888502273B05CA00F8FE29 /* String+Chess.swift in Sources */,
+				9D888500273B050200F8FE29 /* ChessSquare.swift in Sources */,
+				9D88850F273B13AB00F8FE29 /* ChessConstants.swift in Sources */,
+				9D8FED4C2731DBC600FD6DCD /* ChessBoardView.swift in Sources */,
+				9D8FED482731D86000FD6DCD /* HomePageButtonView.swift in Sources */,
+				9D7247C72746F84500C36B4B /* AttemptsView.swift in Sources */,
+				9DCF7D6927445A0E00638CEC /* FullMove.swift in Sources */,
+				9D88850B273B0E8300F8FE29 /* MoveHistoryView.swift in Sources */,
+				9D3D7BE62745A6CC00C24C25 /* AttemptPuzzleView.swift in Sources */,
+				9D8FED462731D4AF00FD6DCD /* ViewConstants.swift in Sources */,
+				9D4C7B2C27418C2F00D64E28 /* ChessTacticsManager + ChessSquareLogic.swift in Sources */,
+				9D8FED172731C52100FD6DCD /* HomeView.swift in Sources */,
+				9D0839DF275ECA5A00F89AE2 /* ChessTacticsManager+CreatePuzzle.swift in Sources */,
+				9D888504273B078100F8FE29 /* ChessSquareView.swift in Sources */,
+				9D92DECE273C2C900031C920 /* ChessTacticsManager+ChessMoveLogic.swift in Sources */,
+				9D88850D273B108D00F8FE29 /* ChessPiece.swift in Sources */,
+				9D3D7BE82745AAE700C24C25 /* GameAssetsView.swift in Sources */,
+				9D8FED442731D3F700FD6DCD /* ButtonContent.swift in Sources */,
+				9D3D7BE327459AEF00C24C25 /* Puzzle.swift in Sources */,
+				9D0839DD275EC80900F89AE2 /* CreatePuzzleView.swift in Sources */,
+				9D3D7BE127459ABD00C24C25 /* StorageManager.swift in Sources */,
+				9D095B2E2742FC4E0019FC53 /* PromotionViewButton.swift in Sources */,
+				9DCF7D67274451ED00638CEC /* HalfMove.swift in Sources */,
+				9DE14F03275536E9004E4625 /* ChessTacticsManager+MoveViewing.swift in Sources */,
+				9D7247C52746F29E00C36B4B /* ChessTacticsManager+Puzzles.swift in Sources */,
+				9D888507273B079C00F8FE29 /* ChessTacticsManager.swift in Sources */,
+				9D8FED422731CD1B00FD6DCD /* PuzzlesView.swift in Sources */,
+				9D7247C32746DEB600C36B4B /* Game.swift in Sources */,
+				9D888509273B09CD00F8FE29 /* ChessSquareRow.swift in Sources */,
+				9D990F85275EE5C500F41C60 /* UserCreatedPuzzlesView.swift in Sources */,
+				9D8FED4A2731DBBC00FD6DCD /* PlayGameView.swift in Sources */,
+				9D8FED152731C52100FD6DCD /* Chess_TacticsApp.swift in Sources */,
+				9DCF7D6527444FA400638CEC /* ChessTacticsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8FED1D2731C52800FD6DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8FED262731C52800FD6DCD /* Chess_TacticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8FED272731C52800FD6DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8FED302731C52800FD6DCD /* Chess_TacticsUITests.swift in Sources */,
+				9D8FED322731C52800FD6DCD /* Chess_TacticsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D8FED232731C52800FD6DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D8FED102731C52100FD6DCD /* Chess Tactics */;
+			targetProxy = 9D8FED222731C52800FD6DCD /* PBXContainerItemProxy */;
+		};
+		9D8FED2D2731C52800FD6DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D8FED102731C52100FD6DCD /* Chess Tactics */;
+			targetProxy = 9D8FED2C2731C52800FD6DCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9D8FED332731C52800FD6DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D8FED342731C52800FD6DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D8FED362731C52800FD6DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chess Tactics/Preview Content\"";
+				DEVELOPMENT_TEAM = 892D9L8ZS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.jar6430.Chess-Tactics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D8FED372731C52800FD6DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chess Tactics/Preview Content\"";
+				DEVELOPMENT_TEAM = 892D9L8ZS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.jar6430.Chess-Tactics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D8FED392731C52800FD6DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 892D9L8ZS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.jar6430.Chess-TacticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chess Tactics.app/Chess Tactics";
+			};
+			name = Debug;
+		};
+		9D8FED3A2731C52800FD6DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 892D9L8ZS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.jar6430.Chess-TacticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chess Tactics.app/Chess Tactics";
+			};
+			name = Release;
+		};
+		9D8FED3C2731C52800FD6DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 892D9L8ZS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.jar6430.Chess-TacticsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chess Tactics";
+			};
+			name = Debug;
+		};
+		9D8FED3D2731C52800FD6DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 892D9L8ZS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.jar6430.Chess-TacticsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chess Tactics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D8FED0C2731C52100FD6DCD /* Build configuration list for PBXProject "Chess Tactics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8FED332731C52800FD6DCD /* Debug */,
+				9D8FED342731C52800FD6DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D8FED352731C52800FD6DCD /* Build configuration list for PBXNativeTarget "Chess Tactics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8FED362731C52800FD6DCD /* Debug */,
+				9D8FED372731C52800FD6DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D8FED382731C52800FD6DCD /* Build configuration list for PBXNativeTarget "Chess TacticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8FED392731C52800FD6DCD /* Debug */,
+				9D8FED3A2731C52800FD6DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D8FED3B2731C52800FD6DCD /* Build configuration list for PBXNativeTarget "Chess TacticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8FED3C2731C52800FD6DCD /* Debug */,
+				9D8FED3D2731C52800FD6DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D8FED092731C52100FD6DCD /* Project object */;
+}
